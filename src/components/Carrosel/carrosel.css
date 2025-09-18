@@ -1,0 +1,82 @@
+.carousel-container {
+	overflow: hidden;
+	position: relative;
+	width: 1085px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.carousel-wrapper {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+	border-radius: 10px;
+	height: 609px;
+}
+
+.slide {
+	flex-shrink: 0;
+	width: 100%;
+}
+
+.prev-button,
+.next-button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	z-index: 10;
+}
+
+.prev-button {
+	left: 10px;
+}
+
+.next-button {
+	right: 10px;
+}
+/* Carro.css */
+
+.slide-com-texto {
+	position: relative; /* Isso é crucial para que o posicionamento absoluto funcione */
+}
+
+.slide-com-texto img {
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+.slide-com-texto h1 {
+	position: absolute; /* Permite posicionar o texto em relação ao container */
+	top: 70%; /* Centraliza verticalmente */
+	left: 55%; /* Centraliza horizontalmente */
+	transform: translate(-60%, -10%); /* Ajusta para a exata posição central */
+	color: white;
+	background-color: rgba(5, 24, 133, 0.5); /* Fundo semi-transparente para melhor visibilidade */
+	padding: 10px 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	text-align: center;
+	border: 1px solid seashell;
+	width: 50%;
+	height: 100px;
+}
+.texto__slide4 {
+	border-top: 1px solid seashell;
+	font-family: 'Instrument Serif', sans-serif;
+	font-weight: 100;
+	top: -100px;
+	position: relative;
+	text-align: center;
+	color: aliceblue;
+	font-size: 30px;
+	width: 50%;
+}
+.texto__slide {
+	font-family: 'Instrument Serif', sans-serif;
+	font-weight: 100;
+}

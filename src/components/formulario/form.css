@@ -1,0 +1,45 @@
+.conteiner__fale {
+	display: flex;
+	width: 1082px;
+	background-color: #e75f02;
+
+	border-radius: 10px;
+}
+.formulario {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+input {
+	width: 100%;
+	border: 0;
+	border-radius: 10px;
+	height: 30px;
+}
+textarea {
+	width: 100%;
+	border: 0;
+	border-radius: 10px;
+	height: 200px;
+}
+.h2__form {
+	text-align: center;
+	font-weight: 100;
+	font-family: 'Courier New', Courier, monospace;
+	padding: 20px;
+}
+.logo2 {
+	border-radius: 20px;
+	box-shadow:
+		-10px 0px 13px -7px #000000,
+		10px 0px 13px -7px #000000,
+		14px 5px 16px 15px rgba(255, 165, 64, 0);
+}
+.form__conteiner {
+	background-color: rgb(255, 186, 121);
+	width: 500px;
+}
+label {
+	padding: 10px;
+	color: rgb(0, 0, 0);
+}

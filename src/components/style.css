@@ -1,0 +1,42 @@
+.Conteiner__Header {
+	display: flex;
+	background-image: url(../img/Captura\ de\ tela\ 2025-09-15\ 222236.png);
+	background-size: cover;
+	height: 130px;
+	margin-top: 10px;
+	box-shadow: 2px 5px 16px 0px #743c09;
+	border-radius: 10px;
+	align-items: center;
+}
+.logo {
+	border-radius: 10px;
+	width: 125px;
+}
+.Menu__ul {
+	display: flex;
+	list-style-type: none;
+	background-color: #642a00af;
+	align-items: center;
+	height: 50px;
+	padding: 7px;
+
+	border-radius: 10px;
+
+	backdrop-filter: blur(10px);
+}
+.Menu__li {
+	padding: 8px;
+	color: aliceblue;
+	transition: all 0.4s;
+
+	&:hover {
+		background-color: rgba(255, 255, 255, 0.349);
+		cursor: pointer;
+	}
+}
+.Mleft {
+	border-right: 1px solid seashell;
+}
+.Mright {
+	border-left: 1px solid seashell;
+}
