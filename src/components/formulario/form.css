@@ -2,7 +2,6 @@
 	display: flex;
 	width: 1082px;
 	background-color: #e75f02;
-
 	border-radius: 10px;
 }
 .formulario {
@@ -42,4 +41,30 @@ textarea {
 label {
 	padding: 10px;
 	color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 768px) {
+	.conteiner__fale {
+		display: flex;
+		width: auto;
+		flex-direction: column;
+		padding-bottom: 21px;
+	}
+	.logo2 {
+		width: 500px;
+	}
+}
+@media screen and (max-width: 360px) {
+	.form__conteiner {
+		width: auto;
+	}
+	.formulario {
+		width: auto;
+	}
+	input,
+	textarea {
+		width: auto;
+	}
+	.logo2 {
+		width: 200px;
+	}
 }

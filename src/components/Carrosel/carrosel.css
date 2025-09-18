@@ -80,3 +80,41 @@
 	font-family: 'Instrument Serif', sans-serif;
 	font-weight: 100;
 }
+
+@media screen and (max-width: 768px) {
+	.carousel-container {
+		width: auto;
+	}
+	img {
+		width: 600px;
+	}
+	.carousel-wrapper {
+		height: 325px;
+	}
+	.slide-com-texto h1 {
+		position: absolute;
+		top: 50%;
+		left: 58%;
+		width: 79%;
+		height: 100px;
+	}
+}
+@media screen and (max-width: 360px) {
+	img {
+		width: 323px;
+	}
+	.carousel-wrapper {
+		height: 173px;
+	}
+	.slide-com-texto h1 {
+		font-size: 15px;
+		top: 50%;
+		height: 49px;
+	}
+	.texto__slide4 {
+		font-size: 15px;
+
+		top: -52px;
+		position: relative;
+	}
+}

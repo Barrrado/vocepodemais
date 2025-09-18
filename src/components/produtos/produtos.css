@@ -72,3 +72,24 @@
 		transform: scale(1.1);
 	}
 }
+@media screen and (max-width: 768px) {
+	.conteiner__produtos {
+		display: flex;
+		flex-direction: column;
+	}
+	.fotos__produtos {
+		width: 446px;
+	}
+	.conteiner__loja {
+		width: auto;
+		flex-direction: column;
+		padding-bottom: 66px;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.fotos__produtos {
+		width: 246px;
+	}
+}

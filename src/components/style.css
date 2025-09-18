@@ -40,3 +40,17 @@
 .Mright {
 	border-left: 1px solid seashell;
 }
+@media screen and (max-width: 360px) {
+	.logo {
+		border-radius: 10px;
+		width: 125px;
+		padding-bottom: 10px;
+	}
+	.Conteiner__Header {
+		flex-direction: column;
+		height: 220px;
+	}
+	.Menu__li {
+		padding: 2px;
+	}
+}
