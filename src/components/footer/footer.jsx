@@ -13,7 +13,12 @@ function footer() {
 					<img className="redes" src={twttier} alt="" />
 				</div>
 				<h4>@TODOS OS DIREITOS RESERVADOS </h4>
-				<h4>@CRIADO POR DIEGO BARRADO </h4>
+				<h4>
+					@CRIADO POR
+					<a href="https://github.com/Barrrado" target="_blank" rel="noopener noreferrer">
+						DIEGO BARRADO
+					</a>
+				</h4>
 			</div>
 		</>
 	)
